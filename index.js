@@ -29,6 +29,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function baixar() {
-    // Redirecionar para a página "pagina.html"
+    // Redirecionar para a página do jogo
     window.open("https://google.com", "_blank");
 }
