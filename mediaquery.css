@@ -33,3 +33,41 @@
         transform: translateX(-50%);
     }
 }
+
+
+@media only screen and (min-width: 1200px) {
+    /* Outros estilos que você possa ter */
+
+    /* Aumenta o tamanho do texto "Parabéns Miguel" */
+    header > h1 {
+        font-size: 7rem; /* Ajuste o tamanho do texto conforme desejado */
+    }
+
+    /* Ajusta o tamanho da imagem */
+    img {
+        width: 400px; /* Ajuste conforme necessário */
+        height: 400px;
+    }
+
+    /* Aumenta o tamanho do botão */
+    button {
+        width: 250px; /* Ajuste conforme necessário */
+        font-size: 2rem; /* Ajuste conforme necessário */
+    }
+
+    /* Centraliza a imagem */
+    img {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Posiciona o botão abaixo da imagem */
+    button {
+        position: fixed;
+        top: calc(50% + 220px); /* Ajuste a distância vertical conforme necessário */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
