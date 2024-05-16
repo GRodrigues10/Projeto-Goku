@@ -1,0 +1,35 @@
+/* Media query para telas menores que 768px */
+@media only screen and (max-width: 768px) {
+    /* Outros estilos que você possa ter */
+
+    /* Diminui o tamanho do texto "Parabéns Miguel" */
+    header > h1 {
+        font-size: 3rem; /* Ajuste o tamanho do texto conforme desejado */
+    }
+
+    img {
+        width: 200px; /* Reduz o tamanho da imagem */
+        height: 200px;
+    }
+
+    button {
+        width: 150px; /* Reduz a largura do botão */
+        font-size: 1.5rem; /* Reduz o tamanho da fonte do botão */
+    }
+
+    /* Centraliza a imagem */
+    img {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Posiciona o botão abaixo da imagem */
+    button {
+        position: fixed;
+        top: calc(50% + 120px); /* Ajuste a distância vertical conforme necessário */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
