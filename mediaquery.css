@@ -1,129 +1,74 @@
-/* Estilos para celulares */
-@media only screen and (max-width: 767px) {
+/* Media query para telas menores que 768px */
+@media only screen and (max-width: 768px) {
+    
+
+    /* Diminui o tamanho do texto "Parabéns Miguel" */
     header > h1 {
-        font-size: 2.5rem; 
-        margin-top: 1rem;
+        font-size: 3rem; 
+        
     }
 
     img {
-        width: 150px; 
-        height: 150px;
+        width: 200px; /* Reduz o tamanho da imagem */
+        height: 200px;
     }
 
     button {
-        width: 120px; 
-        font-size: 1.2rem; 
-        padding: 8px;
+        width: 150px; /* Reduz a largura do botão */
+        font-size: 1.5rem; /* Reduz o tamanho da fonte do botão */
     }
 
-    /* Centraliza a imagem e o botão */
-    img, button {
-        position: static;
-        transform: none;
-        margin: 0 auto;
-    }
-
-    button#startButton {
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
-
-/* Estilos para tablets */
-
-/* Estilos para PCs com resolução HD (1280x720) */
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
-    header > h1 {
-        font-size: 4.5rem;
-        margin-top: 1.5rem;
-    }
-
+    /* Centraliza a imagem */
     img {
-        width: 250px;
-        height: 250px;
-    }
-
-    button {
-        width: 160px;
-        font-size: 1.6rem;
-        padding: 12px;
-    }
-
-    /* Centraliza a imagem e o botão */
-    img, button {
-        position: static;
-        transform: none;
-        margin: 0 auto;
-    }
-
-    button#startButton {
+        position: fixed;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-}
 
-/* Estilos para PCs com resolução Full HD (1920x1080) */
-@media only screen and (min-width: 1441px) and (max-width: 1920px) {
-    header > h1 {
-        font-size: 5.5rem;
-        margin-top: 2rem;
-    }
-
-    img {
-        width: 300px;
-        height: 300px;
-    }
-
+    /* Posiciona o botão abaixo da imagem */
     button {
-        width: 200px;
-        font-size: 1.8rem;
-        padding: 12px;
-    }
-
-    /* Centraliza a imagem e o botão */
-    img, button {
-        position: static;
-        transform: none;
-        margin: 0 auto;
-    }
-
-    button#startButton {
-        top: 50%;
+        position: fixed;
+        top: calc(50% + 120px); /* Ajuste a distância vertical conforme necessário */
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translateX(-50%);
     }
 }
 
-/* Estilos para PCs com resolução 4K (3840x2160) */
-@media only screen and (min-width: 3840px) {
+
+@media only screen and (min-width: 1200px) {
+    
+
+    /* Aumenta o tamanho do texto "Parabéns Miguel" */
     header > h1 {
-        font-size: 7rem;
-        margin-top: 2rem;
+        font-size: 7rem; /* Ajuste o tamanho do texto conforme desejado */
     }
 
+    /* Ajusta o tamanho da imagem */
     img {
-        width: 400px;
+        width: 400px; /* Ajuste conforme necessário */
         height: 400px;
     }
 
+    /* Aumenta o tamanho do botão */
     button {
-        width: 250px;
-        font-size: 2rem;
-        padding: 15px;
+        width: 250px; 
+        font-size: 2rem; 
     }
 
-    /* Centraliza a imagem e o botão */
-    img, button {
-        position: static;
-        transform: none;
-        margin: 0 auto;
-    }
-
-    button#startButton {
+    /* Centraliza a imagem */
+    img {
+        position: fixed;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    /* Posiciona o botão abaixo da imagem */
+    button {
+        position: fixed;
+        top: calc(50% + 220px); /* Ajuste a distância vertical conforme necessário */
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
