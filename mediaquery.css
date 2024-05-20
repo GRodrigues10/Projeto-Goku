@@ -5,7 +5,7 @@
     /* Diminui o tamanho do texto "Parabéns Miguel" */
     header > h1 {
         font-size: 3rem; 
-        margin-top: 20px;
+        margin-top: 0px;
         
     }
 

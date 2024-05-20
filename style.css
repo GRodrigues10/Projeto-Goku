@@ -15,7 +15,8 @@ header > h1{
     animation-name: colorChange;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    margin-top: 10px;
+    
+    
     
 }
 
