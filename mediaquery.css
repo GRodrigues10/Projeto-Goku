@@ -1,11 +1,10 @@
 /* Media query para telas menores que 768px */
 @media only screen and (max-width: 768px) {
-    
-
     /* Diminui o tamanho do texto "Parabéns Miguel" */
     header > h1 {
         font-size: 3rem; 
-        
+        margin-top: 2rem; /* Adiciona uma margem superior para aproximar do centro */
+        margin-bottom: 1rem; /* Adiciona uma margem inferior para aproximar do Goku */
     }
 
     img {
@@ -35,10 +34,8 @@
     }
 }
 
-
+/* Media query para telas maiores que 1200px */
 @media only screen and (min-width: 1200px) {
-    
-
     /* Aumenta o tamanho do texto "Parabéns Miguel" */
     header > h1 {
         font-size: 7rem; /* Ajuste o tamanho do texto conforme desejado */
