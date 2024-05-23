@@ -30,5 +30,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function baixar() {
     // Redirecionar para a página do jogo
-    window.open("https://www.transfernow.net/dl/Jogomaneiro", "_blank");
+    window.open("https://www.transfernow.net/dl/20240523WdTeIwbZ", "_blank");
 }
