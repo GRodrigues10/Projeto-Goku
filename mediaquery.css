@@ -1,8 +1,7 @@
-/* Media query para telas menores que 768px */
 @media only screen and (max-width: 768px) {
     
 
-    /* Diminui o tamanho do texto "Parabéns Miguel" */
+   
     header > h1 {
         font-size: 3rem; 
         margin-top: 1rem
@@ -10,13 +9,13 @@
     }
 
     img {
-        width: 200px; /* Reduz o tamanho da imagem */
+        width: 200px; 
         height: 200px;
     }
 
     button {
-        width: 150px; /* Reduz a largura do botão */
-        font-size: 1.5rem; /* Reduz o tamanho da fonte do botão */
+        width: 150px; 
+        font-size: 1.5rem; 
     }
 
     /* Centraliza a imagem */
@@ -30,7 +29,7 @@
     /* Posiciona o botão abaixo da imagem */
     button {
         position: fixed;
-        top: calc(50% + 120px); /* Ajuste a distância vertical conforme necessário */
+        top: calc(50% + 120px);
         left: 50%;
         transform: translateX(-50%);
     }
@@ -40,14 +39,14 @@
 @media only screen and (min-width: 1200px) {
     
 
-    /* Aumenta o tamanho do texto "Parabéns Miguel" */
+    
     header > h1 {
-        font-size: 7rem; /* Ajuste o tamanho do texto conforme desejado */
+        font-size: 7rem; 
     }
 
     /* Ajusta o tamanho da imagem */
     img {
-        width: 400px; /* Ajuste conforme necessário */
+        width: 400px; 
         height: 400px;
     }
 
@@ -68,7 +67,7 @@
     /* Posiciona o botão abaixo da imagem */
     button {
         position: fixed;
-        top: calc(50% + 220px); /* Ajuste a distância vertical conforme necessário */
+        top: calc(50% + 220px); 
         left: 50%;
         transform: translateX(-50%);
     }
@@ -76,16 +75,16 @@
 
 @media only screen and (max-width: 1280px) and (max-height: 720px) {
     header > h1 {
-        margin-bottom: 1rem; /* Adiciona uma margem inferior para espaçamento */
+        margin-bottom: 1rem; 
     }
 
     img {
-        margin-top: 1rem; /* Adiciona uma margem superior para espaçamento */
+        margin-top: 1rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
     header > h1 {
-        margin-top: 1rem; /* Adiciona uma margem superior para espaçamento em todos os dispositivos móveis */
+        margin-top: 1rem; 
     }
 }
